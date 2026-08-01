@@ -1,4 +1,18 @@
 package br.com.nonna_back.model;
 
-public class produto {
+import java.math.BigDecimal;
+
+public class Produto {
+    String id;
+    String nome;
+    BigDecimal preco;
+    String categoria;
+
+    public Produto(String id, String nome, BigDecimal preco, String categoria) {
+        this.id = id;
+        this.nome = nome;
+        this.preco = preco;
+        this.categoria = categoria;
+    }
+
 }
